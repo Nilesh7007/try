@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Page</title>
+    <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+    width: 98%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+#nav1 {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  font-size: 17px;
+  /* margin-right: 30px; */
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  /* padding-left: 1 rem; */
+
+  padding-right: 10px;
+  padding: 15px;
+}
+
+
+
+
+#nav2 {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: red;
+}
+
+#pincartlogin {
+  display: flex;
+  font-size: 17px;
+  font-weight: 700;
+  width: 25%;
+  /* padding-left: 1 rem; */
+  justify-content: end;
+
+  padding-right: 10px;
+}
+#pincartlogin a {
+  color: white;
+  text-decoration: none;
+}
+#brandlogo {
+  margin-left: 2rem;
+  width: 20%;
+}
+#brandlogo img {
+  width: 60%;
+  padding-bottom: 0.7rem;
+}
+
+#searchbar {
+  background-color: white;
+  height: 2.3rem;
+  border-radius: 25px;
+  margin-right: 7rem;
+  width: 37%;
+}
+#searchbar button {
+  background-color: white;
+  border: 0px solid white;
+  
+  color: gray;
+  width: 2rem;
+  border-radius: 50px;
+}
+#searchbar input {
+  width: 85%;
+  padding: 0px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
+#searchba input {
+  width: 78%;
+  padding: 10px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
+
+
+/* BLUE NAV BAR */
+
+#navblue {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #003380;
+  padding: 10px 0;
+  margin-bottom: 0;
+  margin-bottom: 30px;
+}
+#navblue a {
+  text-decoration: none;
+  color: white;
+}
+#Imlo{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+#footerdetails{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    color: white;
+    background-color: rgb(44, 44, 235);
+    
+}
+#disclaimer{
+    width:100%;
+    color: white;
+    background-color: #003380;
+    
+}
+#nm{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+   
+}
+#playstore>img{
+    width: 30%;
+}
+
+#follow>img{
+    width: 10%;
+}
+#nm>div:nth-child(1){
+    padding-left: 50px;
+}
+#disclaimer>h3{
+    display: block;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <div id="nav1">
+            <div>Find a store </div>
+            <div>| Admin Side |</div>
+            <div>Concat us</div>
+          </div>
+
+
+
+          <div id="navbarsticky">
+            <div id="nav2">
+              <div id="brandlogo"><a href="index.html"><img  src="./Add a little bit of body text (1) (1).png" alt="logo" /></a></div>
+              <div id="searchbar">
+                <input type="text" placeholder="Find your favourite products " ></input>
+                <button>
+                  <!-- <i class="fa fa-search"></i> -->
+                Search</button>
+              </div>
+
+
+              <div id="pincartlogin">
+                <div class="location"><a href="/map.html">Select your PIN Code</a></div>
+                <div><a href="/cart.html"> <span class="cartno">|| Cart ||</span> </a></div> 
+                <div>
+                        <a href="/signup.html"> <span class="user"> Login</span></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="navblue">
+                <div><a href="/mobile.html">MOBILES & TABLETS</a></div>
+                <div><a href="/tv.html">TELEVISIONS </a></div>
+                <div> <a href="/earphone.html">AUDIO</a></div>
+                <div> <a href="/allproduct.html">HOME APPLIANCES</a></div>
+                <div><a href="/monitor.html">COUMPUTERS</a></div>
+                <div> <a href="/mobile.html">CAMERAS</a></div>
+                <div> <a href="/allproduct.html">KITCHEN APPLIANCES</a></div>
+                <div><a href="/dailyuse.html">PERSONAL CARE </a></div>
+                <div><a href="/watch.html">ACCESSORIES</a></div>
+             </div>
+     
+           </div>
+           
+         </header>
+
+         <div id="Imlo">
+
+            <div>
+                <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="error">
+            </div>
+            <div>
+                <form action="index.html">
+                  <h2>Login Here</h2>
+
+                Mobile No.: <br>
+                <input type="number" id="num" placeholder="Enter your Mobile No">
+
+                <br><br>
+                Password: <br>
+                <input type="text" id="pass" placeholder="Enter your Password*">
+
+                <br><br>
+                <input type="submit" value="Login">
+            </form>
+            </div>
+         </div>
+
+         <div id ="footer">
+          <div id ="footerdetails">
+            <div>
+              <h3>PRODUCT CATEGORIES</h3>
+              <h4>Smartphones</h4>
+              <h4 >Laptops</h4>
+              <h4 >DSLR Cameras</h4>
+              <h4>Telivision</h4>
+              <h4>Air Conditioners</h4>
+              <h4>Refrigerators</h4>
+              <h4>Kitchen Applinces</h4>
+              <h4>Accessories</h4>
+              <h4>Personal Care & Grooming</h4>
+            </div>
+            <div>
+              <h3>SITE INFO</h3>
+                <h4>About #TAG DIGITAL</h4>
+               <h4>resQ Services</h4>
+               <h4>Site Map</h4>
+               <h4>Gift Cards</h4>
+               <h4>Corporate Enquires</h4>
+               <h4>Contact Us</h4> 
+            </div>
+            <div>
+              <h3>RESOURCE CENTRE</h3>
+            <h4>Product Reviews</h4>
+             <h4>Buying Guides</h4>
+             <h4>How Tos</h4>
+             <h4>Featured Stories</h4>
+             <h4>Events & Happenings</h4>
+            </div>
+            <div>
+              <h3>POLICES</h3>
+              <h4>Terms of Use</h4>
+              <h4>FAQs</h4>
+              <h4>Cancellation and Return Policy</h4>
+              <h4>Pricing and Payments Policy</h4>
+              <h4>Shipping and Delivery Policy</h4>
+              <h4>Privecy Policy</h4>
+              <h4>E-waste Recycling Policy</h4>
+              <h4>EMI and Additional Cashback T&C</h4>
+              <h4>#TAG ONE Loyalty Program T&C</h4>
+              <h4>Caution Notice</h4>
+            </div>
+          </div>
+          <div id="nm">
+          <div id="follow">
+          
+              <h3>FOLLOW US</h3>
+              
+              <img src="https://www.svgrepo.com/show/506611/twitter.svg" alt=""> 
+              <img src="https://www.svgrepo.com/show/506517/linkedin.svg" alt=""> 
+                 
+            </div>
+            <div id ="playstore">
+              <h3>EXPERCINCE #TAG DIGITAL APP ON MOBILE</h3>
+              <img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="">
+              <img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- disclamer -->
+        <div id ="disclaimer">
+          <h3 >Disclaimer</h3>
+        <h3>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for <br> illustration and they may not exactly match with the actual product. Product specs are subject to change & may vary from actual product. While every <br> care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</h3>
+        
+        <hr>
+        <h3> © 2022 #TAG DIGITAL. All Rights Reserved.</h3>
+        </div>
+
+
+</body>
+
+<script>
+    let formd = document.querySelector("form")
+   let Num = document.getElementById("num")
+   let Password = document.getElementById("pass")
+
+
+    formd.addEventListener("submit", function(){
+
+      if(Num.value==Number("123") && Password.value==Number("1234")){
+        window.location.assign("index.html")
+      }
+      else {
+            alert("Please enter correct phone number or password");
+          }
+    })
+
+       
+                     
+      
+
+
+    
+
+</script>
+</html>
